@@ -23,7 +23,7 @@ build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
 ext-modules = [
- { name = "gsed.csed", sources = ["gsed/unitconversion.pyx", "gsed/unitconversion_cpp.cpp"], language = "c++" }]
+ { name = "gsed.csed", sources = ["gsed/unitconversion.pyx", "gsed/unitconversion_cpp.cpp"], include-dirs = ["gsed"], language = "c++" }]
 
 
 
