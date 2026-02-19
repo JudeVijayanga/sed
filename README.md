@@ -23,11 +23,19 @@ A Python tool to generate **spectral energy distributions (SEDs)** from galaxy p
 sed/
 │
 ├── README.md # Main program: generates SEDs
+├── docs/ # manual
 ├── LICENSE # Reads and processes photometric input
 ├── gsed/ # Utility functions and helpers
 │ ├── conversion.py
-│ └── spectrum.py
+│ └── spec.py
+  └── test_analyzer.py
+  └── unitconversion_cpp.cpp
+  └── unitconversion_cpp.h
+  └── unitconversion.cpp
+  └── unitconversion.pyx
   └── suppliments\
+  └── outputs\
+
   
 ├── tests/ # Unit tests (optional)
  
@@ -70,6 +78,8 @@ The **UV luminosity** is derived from the SED at the rest-frame wavelength of **
 
 ---
 
+
+
 ## ⚙️ Installation
 
 Clone the repository and install locally:
@@ -78,6 +88,16 @@ Clone the repository and install locally:
 git clone https://github.com/JudeVijayanga/sed.git
 cd sed
 pip install .
+```
+
+## How to open manual !
+
+
+```bash
+
+$ cd sed/docs/
+$ jupyter-book
+
 ```
 
 ## 🚀 How to use.
