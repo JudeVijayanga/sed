@@ -14,4 +14,4 @@ pip install .
 
 ```bash
 cd gsed
-python spectrum.py
+python test_analyzer.py
