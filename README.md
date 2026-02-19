@@ -84,7 +84,7 @@ pip install .
 
 1. Quick Test Run
 
-Before you run the code below, copy and paste it into a new Python file and save it outside the "sed" folder. For information read the manual inside the docs folder.
+Before you run the code below, copy and paste it into a new Python file and save it outside the "sed" folder. For information, read the manual inside the docs folder.
 ```bash
 
 import numpy as np
@@ -143,7 +143,7 @@ python your_save_file_name.py
 ```
 
 
-Results appear in the  output folder inside the gsed folder. 
+Results appear in the  output folder within the gsed folder. 
 
 
 ___________________________________________________
