@@ -173,7 +173,7 @@ ___________________________________________________
 
 - First, Update the input SED - replace gsed/suppliments/sed_flux1_1.txt with your own wavelength (µm) and flux (mJy) data.
 - Second, Set the galaxy redshift - Find the redshift in: gsed/suppliments/output.txt and update spectrum.py:
-- Third, Run the program $python spectrum.py.
+- Third, Run the program as instructed in QUICK TEST RUN.
 - Retrieve results: Outputs go to: output/
 
 3. Testing
