@@ -2,7 +2,11 @@ import pytest
 
 from gsed.conversion import UnitConversion
 
-
+# Feedback: it would be good to test
+# routines where it is more likely to introduce bugs
+# I would add a few tests for the routines you use to carry
+# out the sed analysis, rather than just the conversion.
+# Think about how would you check that your analysis is performed correctly.
 class TestConversion:
 
     def test_mag_to_jy(self):

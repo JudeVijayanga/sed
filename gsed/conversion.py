@@ -1,3 +1,11 @@
+"""Feedback:
+These conversions don't involve anything complex,
+so they don't necessarily have to be a separate class.
+This module could be just a set of simple routines.
+
+def mag_to_Jy(magnitude):
+    return (10**(-magnitude / 2.5)) * 3631 * 1e3
+"""
 class UnitConversion:
 
     def __init__(self, magnitude=None):
