@@ -1,6 +1,8 @@
 import numpy as np
 from spec import GalaxySEDAnalyzer
 
+# Feedback: This should probably be an example script
+# I would create a folder ../examples/ and move this file there.
 # 1. Initialize the Analyzer
 # This sets up the cosmology and the output folders
 analyzer = GalaxySEDAnalyzer(
